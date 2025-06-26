@@ -1,0 +1,132 @@
+{
+  "app": {
+    "description": "AI-Powered Resume Optimization"
+  },
+  "navigation": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "login": "Sign In",
+    "logout": "Logout"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "enterEmail": "Enter your email to receive a magic link",
+    "emailAddress": "Email Address",
+    "sendMagicLink": "Send Magic Link",
+    "checkEmail": "Check Your Email",
+    "magicLinkSent": "We sent you a magic link to sign in securely",
+    "tryDifferentEmail": "Try a different email",
+    "backToApp": "Back to Resume Rewriter",
+    "verifyingLogin": "Verifying your login...",
+    "loginSuccess": "Successfully logged in!",
+    "invalidToken": "Invalid or expired token",
+    "sendingLink": "Sending...",
+    "networkError": "Network error. Please try again."
+  },
+  "rewriter": {
+    "pasteResume": "Paste Your Resume",
+    "pasteJobDescription": "Paste Job Description",
+    "templateStyle": "Template Style",
+    "rewriteResume": "Rewrite Resume",
+    "rewritingResume": "Rewriting Resume...",
+    "rewrittenResume": "Rewritten Resume",
+    "copy": "Copy",
+    "download": "Download",
+    "switchTemplate": "Switch Template",
+    "fillBothFields": "Please fill in both resume and job description",
+    "characterLimit": "Text must be under 3000 characters",
+    "rewriteSuccess": "Resume rewritten successfully!",
+    "copySuccess": "Copied to clipboard!",
+    "downloadSuccess": "Resume downloaded!",
+    "copyFailed": "Failed to copy to clipboard",
+    "rewriteFailed": "Failed to rewrite resume",
+    "resultPlaceholder": "Your rewritten resume will appear here after processing"
+  },
+  "templates": {
+    "classic": {
+      "name": "Classic",
+      "description": "Traditional format with clean lines"
+    },
+    "modern": {
+      "name": "Modern",
+      "description": "Contemporary design with visual elements"
+    },
+    "minimal": {
+      "name": "Minimal",
+      "description": "Simple and clean layout"
+    }
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Start free and upgrade when you need more rewrites",
+    "free": {
+      "name": "Free",
+      "price": "$0",
+      "period": "/month",
+      "description": "Perfect for trying out the service",
+      "features": ["1 resume rewrite per day", "All template options", "PDF download", "Copy to clipboard"],
+      "button": "Current Plan"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$7",
+      "period": "/month",
+      "description": "For serious job seekers",
+      "badge": "Most Popular",
+      "features": [
+        "Unlimited resume rewrites",
+        "All template options",
+        "PDF download",
+        "Copy to clipboard",
+        "Priority support"
+      ],
+      "button": "Upgrade to Pro",
+      "currentPlan": "Current Plan"
+    },
+    "currentStatus": "Current Status:",
+    "signInFirst": "Please sign in first",
+    "upgradeError": "Failed to create checkout session",
+    "processing": "Processing..."
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "adminAccess": "Admin Access",
+    "enterAdminKey": "Enter admin key to continue",
+    "adminKey": "Admin Key",
+    "accessPanel": "Access Admin Panel",
+    "authenticating": "Authenticating...",
+    "invalidKey": "Invalid admin key",
+    "accessGranted": "Admin access granted",
+    "authFailed": "Authentication failed",
+    "submissions": "Submissions",
+    "users": "Users",
+    "recentSubmissions": "Recent Submissions",
+    "email": "Email",
+    "template": "Template",
+    "date": "Date",
+    "actions": "Actions",
+    "preview": "Preview",
+    "anonymous": "Anonymous",
+    "plan": "Plan",
+    "joined": "Joined",
+    "free": "Free",
+    "pro": "Pro",
+    "submissionPreview": "Submission Preview",
+    "originalResume": "Original Resume",
+    "jobDescription": "Job Description",
+    "rewrittenResume": "Rewritten Resume",
+    "fetchDataError": "Failed to fetch data"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "deleteMyData": "Delete My Data"
+  },
+  "errors": {
+    "networkError": "Network error. Please try again.",
+    "somethingWentWrong": "Something went wrong. Please try again.",
+    "unauthorized": "You are not authorized to access this resource.",
+    "rateLimitExceeded": "Rate limit exceeded. Please try again later.",
+    "quotaExceeded": "Daily quota exceeded. Upgrade to Pro for unlimited rewrites."
+  }
+}
